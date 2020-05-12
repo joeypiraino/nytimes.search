@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NY Times Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar navbar-light bg-dark">
+    <span class="navbar-brand mb-0 h1">NY Times Search</span>
+  </nav>
+    </br>
+  <div class="container">
+    <div class="card">
+        <h5 class="card-header">Search Parameters</h5>
+        <div class="card-body">
+        
+        <form>
+        <div class="form-group">
+          <label for="searchInput">Search Term:</label>
+          <input type="search" class="form-control" id="searchInput">
+        </div>
+        <div class="form-group">
+          <label for="numberOfRecords">Number of Records to Retrieve:</label>
+          <select class="form-control" id="numberOfRecords">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+            <label for="startYear">Start Year (Optional):</label>
+            <input type="yearOfRecord" class="form-control" id="startYear">
+          </div>
+          <div class="form-group">
+            <label for="endYear">End Year (Optional):</label>
+            <input type="yearOfRecord" class="form-control" id="endYear">
+          </div>
+      </form>
+      <div class="btn-group" role="group" aria-label="searchOptions">
+        <button type="button" class="btn secondary-btn">Search</button>
+        <button type="button" class="btn secondary-btn">Clear Results</button>
+      </div>
+    </div>
+        </br>
+    <div class="card">
+        <div class="card-header">
+          Top Articles
+        </div>
+        <div class="card-body">
+          
+        </div>
+      </div>
+</div>
+  </div>
+</body>
+</html>
